@@ -67,7 +67,7 @@ def login():
     password = input("Enter the Password: ")
 
     # Dummy credentials for login
-    if email == "Demo@gmail.com" and password == "Taskmanager Demo":
+    if email == "demo@gmail.com" and password == "Taskmanager@Demo":
         print(" Login successful ✅")
         return True
     else:
